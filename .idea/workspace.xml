@@ -4,7 +4,8 @@
     <list default="true" id="1803c98f-207b-428a-9a6a-ceaa88835209" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,21 +23,21 @@
     <session id="141093624">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
-          <entry key="Gemfile" value="6" />
+          <entry key="Gemfile" value="7" />
           <entry key="dockerfile" value="2" />
           <entry key="erb" value="5" />
           <entry key="js" value="1" />
           <entry key="lock" value="2" />
-          <entry key="rb" value="13" />
+          <entry key="rb" value="30" />
           <entry key="scss" value="1" />
           <entry key="sh" value="3" />
           <entry key="yml" value="4" />
@@ -48,7 +49,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="RHTML" value="5" />
-          <entry key="Ruby" value="19" />
+          <entry key="Ruby" value="37" />
           <entry key="SCSS" value="1" />
           <entry key="YAML" value="4" />
         </counts>
@@ -59,7 +60,7 @@
           <entry key="Gemfile" value="64" />
           <entry key="erb" value="24" />
           <entry key="js" value="35" />
-          <entry key="rb" value="94" />
+          <entry key="rb" value="206" />
           <entry key="scss" value="55" />
           <entry key="sh" value="1" />
           <entry key="yml" value="5" />
@@ -71,7 +72,7 @@
           <entry key="JavaScript" value="35" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="24" />
-          <entry key="Ruby" value="158" />
+          <entry key="Ruby" value="270" />
           <entry key="SCSS" value="55" />
           <entry key="YAML" value="5" />
         </counts>
@@ -87,17 +88,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -120,7 +111,6 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20181013214635_devise_create_users.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
@@ -128,6 +118,12 @@
         <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/message.rb" />
+        <option value="$PROJECT_DIR$/app/models/talk.rb" />
+        <option value="$PROJECT_DIR$/app/models/team.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/channel.rb" />
+        <option value="$PROJECT_DIR$/app/models/team_user.rb" />
       </list>
     </option>
   </component>
@@ -182,21 +178,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="onebitchat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onebitchat" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -338,17 +320,17 @@
       <workItem from="1541186827058" duration="190000" />
       <workItem from="1541187020300" duration="6637000" />
       <workItem from="1542391692805" duration="987000" />
+      <workItem from="1542466093310" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21013000" />
+    <option name="totallyTimeSpent" value="26365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="10" width="900" height="1440" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49014777" visible="true" weight="0.26806527" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49014777" weight="0.26806527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50985223" side_tool="true" weight="0.15285714" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,7 +344,7 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32862455" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.516317" side_tool="true" weight="0.45501858" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.483683" visible="true" weight="0.669145" />
-      <window_info anchor="bottom" id="Docker" order="11" />
+      <window_info anchor="bottom" id="Docker" order="11" weight="0.32936803" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -394,6 +376,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -439,13 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="75" column="57" selection-start-line="75" selection-start-column="57" selection-end-line="75" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="50" selection-start-line="3" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -521,10 +514,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181116183729_create_teams.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20181116184052_create_channels.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/talk.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/channel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/team_user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/team.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="789">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="14" />
         </state>
       </provider>
     </entry>
