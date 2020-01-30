@@ -23,7 +23,7 @@
                      <% @team.channels.each do |channel| %>
                      <li class="channel_<%= channel.id %>">
                         <div>
-                           <a href="#" class="open_channel">
+                           <a href="#" class="open_channel" id="<%= channel.id %>">
                            <span id="<%= channel.id %>">#<%= channel.slug %></span>
                            </a>
                           <% if can? :destroy, channel %>
@@ -62,7 +62,7 @@
                         <li class="user_<%= user.id %>">
                            <div>
                               <a href="#" id="<%= user.id %>" class="open_user">
-                              <span id="<%= user.id %>"><%= user.name %></span>
+                                <span id="<%= user.id %>"><%= user.name %></span>
                               </a>
                              <% if can? :destroy, @team %>
                               <a class="right remove_user" id="<%= user.id %>" href="#" style="color: #ccc">
@@ -95,8 +95,7 @@
 </ul>
 
 <div class="fixed-action-btn horizontal hide-on-med-and-up">
-  <a href="#" data-activates="side-bar-channel"
-     class="button-collapse btn-floating btn-large waves-effect waves-light grey bottom">
+  <a href="#" data-activates="side-bar-channel" class="button-collapse btn-floating btn-large waves-effect waves-light grey bottom">
     <i class="material-icons">menu</i>
   </a>
 </div>
